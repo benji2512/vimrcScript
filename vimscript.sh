@@ -9,3 +9,4 @@ mv .vimrc  ~/
 cd ~/
 vim +PluginInstall +qall
 echo "Finished Plugin Install"
+rm -rf ~/VimSetUp
