@@ -19,5 +19,3 @@ then
     sudo zypper install cmake
     sudo zypper install -t pattern devel_C_C++ devel_python3
 fi
-cd ~/.vim/bundle/YouCompleteMe
-python3 install.py
