@@ -10,12 +10,3 @@ cd ~/
 vim +PluginInstall +qall
 echo "Finished Plugin Install"
 rm -rf ~/VimSetUp
-NAME=$(lsb_release -is)
-if [ $NAME = 'Ubuntu' ]
-then
-    sudo apt install build-essential cmake python3-dev
-elif [ $NAME = 'openSUSE' ]
-then
-    sudo zypper install cmake
-    sudo zypper install -t pattern devel_C_C++ devel_python3
-fi
